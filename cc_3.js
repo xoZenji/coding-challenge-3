@@ -40,3 +40,17 @@ reviews.push({customerName: "Kendall Jenner" ,rating: 5, feedbackText: "The show
 console.log("New Reviews: ", reviews);
 // Declares reviews to the array of customers, added the customers and their reviews, added an additional new customer and their review, then had the console print everything.
 
+// Task 5: Inventory Management Systems
+
+let inventory = {
+    itemName: "Worn Clown Nose",
+    stockCount: 10,
+    price: 25000,
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+    }
+};
+
+console.log(inventory);
+console.log("Total Value:", inventory.calculateTotalValue());
+// Declares inventory to an object, assigns values to the amount of stock and price of the product, then calculates the total value and prints it all to the console.
