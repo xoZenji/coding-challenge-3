@@ -27,3 +27,16 @@ employee.promotionEligible = true;
 
 console.log("New Employee Info: ", employee);
 // Declares employee to an object, added 0.5 to the performance score, added the employee eligibility for promotion, Then the console prints the new employee information.
+
+// Task 4: Customer Feedback Records
+let reviews = [
+    {customerName: "Kim Kardashian" ,rating: 4.6, feedbackText: "This show was so boring I almost fell asleep. I only came to be seen in public with my family."},
+    {customerName: "Kanye West" ,rating: 8.9, feedbackText: "I loved the show! Especially since I got to spend time with North. Her mother on the other hand...."},
+    {customerName: "North West" ,rating: 9.4, feedbackText: "I thought the show was hilarious! My dad and I had a great time together! My mom didnt seem to enjoy it as much but she doesnt enjoy anything so it makes sense."},
+];
+
+reviews.push({customerName: "Kendall Jenner" ,rating: 5, feedbackText: "The show was mid imo. I only came along because there was an extra ticket."});
+
+console.log("New Reviews: ", reviews);
+// Declares reviews to the array of customers, added the customers and their reviews, added an additional new customer and their review, then had the console print everything.
+
